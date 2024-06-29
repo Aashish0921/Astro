@@ -1,0 +1,15 @@
+---
+const name="John";
+console.log(name);
+
+const users=[
+    {name:"Aashish",age:20},
+    {name:"Kashish",age:25}
+]
+---
+<h1>Hello {name}</h1>
+<ul>
+{users.map(user=>{
+    <li>{user.name}</li>
+})}
+</ul>
