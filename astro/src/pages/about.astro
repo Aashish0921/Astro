@@ -1,0 +1,47 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import { Image } from "astro:assets";
+import team1 from "../images/team1.png";
+---
+
+<MainLayout title="About the AashBlogs">
+  <section class="container mx-auto max-w-screen-xl mt-10 px-8">
+    <h1 class="text-4xl font-bold mb-5">About AashBlogs</h1>
+    <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="w-full md:w-1/2 mb-8 md:mb-0">
+        <Image
+          src={team1}
+          alt="AashBlogs"
+          class="w-full h-auto rounded-lg shadow-lg"
+        />
+      </div>
+      <div class="w-full md:w-1/2">
+        <h2 class="text-3xl font-extrabold text-gray-900 mb-4">Who We Are</h2>
+        <p class="text-gray-700 leading-relaxed mb-6">
+          At AashBlogs, we're a dedicated group of technology enthusiasts
+          committed to delivering the newest updates, articles, and tutorials in
+          the tech world. Our goal is to empower and educate our audience,
+          ensuring they stay informed in today's fast-paced tech landscape.
+          Whether you're an experienced developer, a gadget lover, or simply
+          curious about the latest trends, we've got everything you need.
+        </p>
+      </div>
+    </div>
+
+    <!-- Team -->
+    <div class="mt-10">
+      <h2 class="text-3xl font-extrabold text-gray-900 mb-8">Our Team</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <Image src={team1} alt="Team Member 1" class="w-full h-auto" />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">
+              Aashish Gupta
+            </h3>
+            <p class="text-gray-70">Lead Writer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</MainLayout>
