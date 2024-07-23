@@ -1,0 +1,39 @@
+.semicircular-progress-bar {
+    overflow: visible;
+}
+
+.semicircular-progress-bar-bg {
+    fill: none;
+    stroke: #d6d6d6;
+}
+
+.semicircular-progress-bar-fg {
+    fill: none;
+    transition: stroke-dashoffset 0.35s;
+}
+.meter-label h3{
+    color: black;
+    font-weight: 500;
+    padding-right: 5px;
+}
+.meter-label p{
+    color: black;
+}
+
+.meter-label{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.circular-meters{
+    display: flex;
+    gap: 15px;
+}
+.circular-meter{
+    display: flex;
+    padding: 50px 50px;
+    border-radius: 12px;
+    box-shadow: 0 8px 8px rgb(0 6 255 / 10%);
+    flex-direction: column;
+}

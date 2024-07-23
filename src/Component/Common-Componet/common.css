@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.common-margin{
+    padding: 5% 10% 5% 5%;
+}
+h1{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+    color:#ffffff;
+}
+h2{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight:700;
+    color:#ffffff;
+}
+h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color:#ffffff;
+}
+h5{
+    font-size: 18px;
+    line-height: 24px;
+    color:#000000;
+    font-weight: 500;
+}
+p{
+    font-size: 18px;
+    line-height: 24px;
+    color:#ffffff;
+}

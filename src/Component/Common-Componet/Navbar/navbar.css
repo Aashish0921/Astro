@@ -1,0 +1,121 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 50px 20px 50px;
+  background-color: #fff;
+  border-bottom: 0.6px solid #DADADA;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.nav-container h3 {
+  color: #001f63;
+  font-weight: 400;
+}
+
+.nav-title {
+  margin: 0px 45px;
+}
+
+.profile-container h2 {
+  font-weight: normal;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 0px 20px;
+  gap: 10px;
+}
+.profile-container img{
+  height: 50px;
+  width: 50px;
+}
+.profile-contain-wrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.time-container{
+  position: absolute;
+  top: 75px;
+  background-color: #f5f7fa;
+  border: 1px solid #DADADA;
+}
+.time-container h1{
+  color: white;
+}
+.profile-container-header{
+  display: flex;
+  gap: 10px;
+  background: #f5f7fa;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #DADADA;
+}
+.profile-container-header h3{
+  font-size: 20px;
+  line-height: 26px;
+  width: 200px;
+}
+.time h3{
+  color: white;
+  font-size: 20px;
+  line-height: 26px;
+}
+.left-time-container h3{
+  color: #001f63;;
+  font-size: 20px;
+  line-height: 26px;
+}
+.time-wrapper{
+  display: flex;
+  gap: 10px;
+}
+.time{
+  background-color: white;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  width: max-content;
+  cursor: pointer;
+}
+.time-container-wrapper{
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.left-time-container{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.time-container{
+  display: flex;
+  right: 135px;
+  border-radius: 8px;
+  flex-direction: row-reverse;
+}
+.right-time-container{
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 10px;
+}
+.right-time-container h3{
+  width: max-content;
+  font-size: 20px;
+  line-height: 26px;
+  cursor: pointer;
+  padding: 5px;
+}
+.time:hover {
+  background-image: linear-gradient(to bottom right, #445df3bd, #dfd7ffc2);
+}
+.right-time-container h3:hover{
+  background-image: linear-gradient(to bottom right, #445df3bd, #dfd7ffc2);
+}
+.top-sidebar-header h3{
+  font-weight: bold;
+}

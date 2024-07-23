@@ -1,0 +1,129 @@
+.login-container{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+
+}
+.left-login-container{
+    background-color: #081E5F;
+    padding: 7% 5% 5% 5%;
+    border-radius: 22px;
+    width: 45%;
+}
+.right-login-container{
+    width: 35%;
+
+}
+.akira-ai{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.akira-ai-function{
+    background-color: #21356F;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 15px;
+}
+.function-wrapper{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.left-login-container h1{
+    padding-bottom: 30px;
+}
+.loginHeader {
+    display: flex;
+}
+.loginSection {
+    height: 100%;
+    padding: 0 40px;
+}
+.loginDetailsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.loginDetailsWrapper h1{
+    margin-bottom: 50px;
+    color: #353535;
+}
+.input {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+label.errorLabel {
+    color: red;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.loginDetailsWrapper input{
+    width: 100%;
+    border-radius: 53px;
+    border: 1px solid #E0E0E0;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+}
+input:focus-visible{
+    outline: 1px solid #bababa;
+}
+input::placeholder{
+    font-size: 16px;
+    color: #747474;
+}
+.loginButton {
+    cursor: pointer;
+    height: 55px;
+    background: #000000;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 30px;
+}
+.loginButton p{
+    color: white;
+}
+.input1{
+    width: -webkit-fill-available;
+        border-radius: 10px;
+        border: 1px solid #E0E0E0;
+        height: 50px;
+        padding: 0 20px;
+        font-size: 18px;
+        display: flex;
+        margin-bottom: 20px;
+}
+.input1 input{
+    border: none;
+    flex-grow: 1;
+    flex-basis: auto;
+    height: 47px;
+    padding: 0;
+    color: #353535;
+}
+.input1 input:focus-visible{
+outline: none;
+}
+.switch-page{
+    display: flex;
+    gap: 10px;
+    padding-top: 25px;
+}
+.switch-page p{
+    color: #353535;
+}
+.link-to-switch p{
+    color: #2D4DE1;
+}

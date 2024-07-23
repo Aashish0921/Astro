@@ -1,0 +1,130 @@
+.top-traces h3{
+    color: black;
+    font-weight: 500;
+}
+.top-traces{
+    background-color: #7b8ae94f;
+    border: 2px solid #7b8ae9b8;
+    width: -webkit-fill-available;
+    padding: 15px 40px;
+    margin-bottom: 30px;
+    
+}
+.header-traces{
+    align-items: center;
+    background-color: #7b8ae94f;
+    border: 2px solid #aaa;
+    width: -webkit-fill-available;
+    padding: 7px 40px;
+    display: flex;
+    flex-direction: row;
+}
+.header-traces h3{
+    color: black;
+    font-weight: 500;
+}
+.traces-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+   
+}
+.box{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin-right: 20px;
+}
+.body-traces{
+    background-color: #efefef82;
+    border: 2px solid #aaa;
+    width: -webkit-fill-available;
+    padding: 30px 40px;
+    display: flex;
+    border-block-start: none;
+    justify-content: space-between;
+}
+.span{
+    border: 1px solid #aaa;
+    background-color: #7b8ae94f;
+    margin-right: 100px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+.services{
+    border: 1px solid #aaa;
+    background-color: #7b8ae94f;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+.span-wrapper{
+    width: -webkit-fill-available;
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-around;
+}
+.inner-header{
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    align-items: center;
+}
+.trace{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.span-wrapper h4{
+    color: black;
+    padding-right: 5px;
+}
+.inner-header-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.inner-header-wrapper p{
+    color: black;
+}
+.span-wrapper p{
+    color: black;
+}
+
+.span-detail{
+    padding: 10px 80px;
+    display: flex;
+    border: 2px solid #aaa;
+    justify-content: space-between;
+    border-top: none;
+    background-color: #efefef82;
+}
+.span2{
+    border: 1px solid #aaa;
+    background-color: #7b8ae94f;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+.span2 p{
+    color: black;
+}
+.span2 h4{
+    margin-right: 5px;
+}
+.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.6s;
+}
+.outside-traces-wrapper{
+    padding: 50px 50px 0px 50px;
+}
+
+.charts{
+    /* height: 300px;
+    width: 300px; */
+}
+.charts text{
+    color: beige;
+    margin-top: 100px;
+}

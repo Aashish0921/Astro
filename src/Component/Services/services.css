@@ -1,0 +1,60 @@
+.targets-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.targets-table th,
+.targets-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.targets-table th {
+    background-color: #7b8ae94f;
+}
+
+.targets-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.healthy {
+    color: green;
+}
+
+.unhealthy {
+    color: red;
+}
+
+.label {
+    display: inline-block;
+    padding: 2px 6px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+td a {
+    color: black;
+}
+
+td h3 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: black;
+}
+
+.outer-service-wrapper {
+    padding: 50px 50px 0px 50px;
+}
+
+.user-header span {
+    padding-bottom: 20px;
+}
